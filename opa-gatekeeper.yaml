@@ -8,7 +8,7 @@ spec:
   source:
     chart: gatekeeper/gatekeeper
     repoURL: https://open-policy-agent.github.io/gatekeeper/charts
-    targetRevision: v3.7.1
+    targetRevision: v3.6.0
     helm:
       releaseName: gatekeeper
 

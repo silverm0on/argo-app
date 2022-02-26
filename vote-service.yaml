@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: vote-service
+  name: voteservice
   namespace: argocd
 spec:
   project: default
@@ -12,7 +12,7 @@ spec:
 
   destination:
     server: https://vcluster-1.host-namespace-1.svc:443
-    namespace: vote-service
+    namespace: voteservice
 
   syncPolicy:
     automated:
