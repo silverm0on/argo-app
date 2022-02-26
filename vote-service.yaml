@@ -5,10 +5,10 @@ metadata:
   namespace: argocd
 spec:
   project: default
-source:
-  repoURL: 'https://github.com/dockersamples/example-voting-app.git'
-  path: k8s-specifications
-  targetRevision: HEAD
+  source:
+    repoURL: 'https://github.com/dockersamples/example-voting-app.git'
+    path: k8s-specifications
+    targetRevision: HEAD
 
   destination:
     server: https://vcluster-1.host-namespace-1.svc:443
